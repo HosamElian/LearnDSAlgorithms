@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Hash\HashChain.cs" />
+    <Compile Include="Heap\Heap.cs" />
     <Compile Include="LinkedList\CircularLinkedList.cs" />
     <Compile Include="LinkedList\DoublyLinkedList.cs" />
     <Compile Include="LinkedList\DoublyNode.cs" />
@@ -56,6 +58,9 @@
     <Compile Include="Recursion.cs" />
     <Compile Include="Search.cs" />
     <Compile Include="Sort.cs" />
+    <Compile Include="SortAlgorithms\CountSort.cs" />
+    <Compile Include="SortAlgorithms\HeapSort.cs" />
+    <Compile Include="SortAlgorithms\Sort.cs" />
     <Compile Include="Stack\StackArray.cs" />
     <Compile Include="Stack\StackLinkedList.cs" />
     <Compile Include="Trees\BST\BinarySearchTree.cs" />
