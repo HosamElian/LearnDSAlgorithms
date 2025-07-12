@@ -2,14 +2,6 @@
 
 A comprehensive, hands-on repository to learn and implement classic and advanced data structures and algorithms using **C#**. This project covers fundamental concepts like complexity analysis, recursion, and classic algorithmic techniques—along with in-depth implementations of real-world problems using advanced paradigms like **Divide & Conquer**, **Greedy**, **Dynamic Programming**, **Backtracking**, and **Branch & Bound**.
 
----
-
-## 📚 What You’ll Learn
-
-- 🔢 Analyze **Time and Space Complexity** of algorithms (Big O Notation)
-- 🔍 Implement and compare **Searching and Sorting Algorithms**
-- 🧱 Master various **Data Structures** and their real-world applications
-- 💻 Learn how to code and apply algorithms efficiently in **C#**
 
 ---
 
