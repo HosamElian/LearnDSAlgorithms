@@ -58,8 +58,10 @@
     <Compile Include="Recursion.cs" />
     <Compile Include="Search.cs" />
     <Compile Include="Sort.cs" />
-    <Compile Include="SortAlgorithms\CountSort.cs" />
+    <Compile Include="SortAlgorithms\IndexBase\BucketSort.cs" />
+    <Compile Include="SortAlgorithms\IndexBase\CountSort.cs" />
     <Compile Include="SortAlgorithms\HeapSort.cs" />
+    <Compile Include="SortAlgorithms\IndexBase\RadixSort.cs" />
     <Compile Include="SortAlgorithms\Sort.cs" />
     <Compile Include="Stack\StackArray.cs" />
     <Compile Include="Stack\StackLinkedList.cs" />
