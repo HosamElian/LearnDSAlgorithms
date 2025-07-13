@@ -57,7 +57,6 @@
     <Compile Include="Quere\QueueArray.cs" />
     <Compile Include="Recursion.cs" />
     <Compile Include="Search.cs" />
-    <Compile Include="Sort.cs" />
     <Compile Include="SortAlgorithms\IndexBase\BucketSort.cs" />
     <Compile Include="SortAlgorithms\IndexBase\CountSort.cs" />
     <Compile Include="SortAlgorithms\HeapSort.cs" />
