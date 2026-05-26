@@ -5,18 +5,22 @@ namespace LearnDSAlgorithms.Heap
     //Max heap
     // if need to make it min heap make the root smallest value
     public class Heap<T>
-         where T : IComparable<T>
+        where T : IComparable<T>
     {
         private int CSize = 0;
         private int MaxSize = 10;
         private T[] _data = null;
+
         public Heap(int maxSize = 10)
         {
             MaxSize = maxSize;
             _data = new T[MaxSize];
         }
+
         public int Length() => CSize;
+
         public bool IsEmpty() => CSize == 0;
+
         //time complexity O(log n)
         public void Insert(T item)
         {
@@ -34,6 +38,7 @@ namespace LearnDSAlgorithms.Heap
             }
             _data[hi] = item;
         }
+
         //time complexity O( log n)
         public T DeleteMax()
         {
@@ -65,6 +70,7 @@ namespace LearnDSAlgorithms.Heap
             return oldRoot;
             //time complexity O(n log n)
         }
+
         public T Max()
         {
             if (IsEmpty())
@@ -72,11 +78,13 @@ namespace LearnDSAlgorithms.Heap
 
             return _data[CSize];
         }
+
         public void Clear()
         {
             _data = new T[MaxSize];
             CSize = 0;
         }
+
         public void Display()
         {
             for (int i = 0; i < _data.Length; i++)

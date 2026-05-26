@@ -6,6 +6,7 @@ namespace LearnDSAlgorithms.Hash
     {
         int hashTableSize = 0;
         LinearLinkedList<int>[] _hashTable;
+
         public HashChain(int size = 10)
         {
             hashTableSize = size;
@@ -20,16 +21,19 @@ namespace LearnDSAlgorithms.Hash
         {
             return key % hashTableSize;
         }
+
         public void Insert(int elemnt)
         {
             int hash = hashCode(elemnt);
             _hashTable[hash].InsertSorted(elemnt);
         }
+
         public bool Search(int key)
         {
             int hash = hashCode(key);
             return _hashTable[hash].Search(key) != -1;
         }
+
         public void Display()
         {
             for (int i = 0; i < hashTableSize; i++)
